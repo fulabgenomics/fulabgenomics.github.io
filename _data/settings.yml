@@ -2,20 +2,20 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
-logo:
-author: themefisher
+title: Fu Lab
+logo: 
+author: yusifu
 description: this is meta description
-email: steve.fruits@email.com
+email: yusifu@creighton.com
 phone: +880 2544 658 256
 address: 125/A, CA Commercial Area, California, USA
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
-  - { name: About, link: "/about" }
-  - { name: Blog, link: "/blog" }
-  - { name: Portfolio, link: "/portfolio" }
-  - { name: Contact, link: "/contact" }
+  - { name: Research, link: "/research" }
+  - { name: Lab Members, link: "/labmembers" }
+  - { name: Publications, link: "/publications" }
+  - { name: Join the Lab, link: "/contact" }
 
 #-------------------------------
 # Google Analytics Section
@@ -36,268 +36,161 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Single-Cell Genomics <br> in <br> Aging, Cancer, and Beyond
 
 social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+ # - { icon: "ti-facebook", link: "#" }
+ # - { icon: "ti-instagram", link: "#" }
+ # - { icon: "ti-dribbble", link: "#" }
+ # - { icon: "ti-twitter-alt", link: "#" }
+
+  #- { icon: "ti-google", link: "https://scholar.google.com/citations?user=A8SgYIcAAAAJ" }
+  #- { icon: "ti-email", link: "mailto:YusiFu@creighton.edu" }
 
 #-------------------------------
 # About (Section and Page)
 
-# About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-blurb-btn-link: "/about"
-blurb-btn-name: know more
 
-# About Page
-
-# Work Process Section
+# Work Process/field Section
 work-process:
-  - title: "Research and Plan"
-    icon: "assets/images/icons/plan.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title: "Cancer Genomics"
+    icon: "assets/images/icons/logo1.svg"
+    content: "Cancer embodies a heterogeneous progression with diverse genetic underpinnings. Our research dives deep into its genomic landscape to decipher patterns and potential therapeutic targets."
+  
+  - title: "Aging and Longveity"
+    icon: "assets/images/icons/logo2.svg"
+    content: "Aging is a multifaceted biological journey shaped by genetics and environmental factors. Our work seeks to understand its molecular drivers and potential avenues to promote longevity."
 
-  - title: "Design and Develop"
-    icon: "assets/images/icons/design.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title: "Hearing Loss"
+    icon: "assets/images/icons/logo3.svg"
+    content: "Hearing impairment can be influenced by various genetic and environmental factors. Our research aims to elucidate the genetic predispositions and underlying mechanisms contributing to hearing loss."
 
-  - title: "Deliver"
-    icon: "assets/images/icons/print.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 # My Team Section
+
 team:
-  - title: "Jack Schenziwe"
-    image: "assets/images/team/member-1.png"
-    designation: "Project Manager"
+  - title: "Na Zhong"
+    image: "assets/images/team/NaZhong1.png"
+    designation: "Lab manager"
+  
+  - title: "Shiwei Yin"
+    image: "assets/images/team/ShiweiYin1.png"
+    designation: "Laboratory Operations Manager"
+  
+  - title: "Yingzi Liu"
+    image: "assets/images/team/YingziLiu1.png"
+    designation: "Lab technician"
+  
+  - title: "Sneha Pradhan"
+    image: "assets/images/team/SnehaPradhan1.png"
+    designation: "Master Student"
 
-  - title: "Julias Carlie"
-    image: "assets/images/team/member-2.png"
-    designation: "Web Developer"
 
-  - title: "John Doe"
-    image: "assets/images/team/member-3.png"
-    designation: "Designer"
-
-#-------------------------------
-# Skills Section
-
-skills-title: Skills
-skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
 
 #-------------------------------
-# Exprerience Section
+# Publication (Section and Page)
 
-experience-title: Experience
-experience:
-  - {
-      name: Junior UX Designer,
-      icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      organization: "WEBEX",
-    }
-  - {
-      name: UX & UI Designer,
-      icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
-      organization: "AUGMEDIX",
-    }
-  - {
-      name: Senior UI Designer,
-      icon: "icon-3.png",
-      date: "Sep 2014 - Present",
-      organization: "THEMEFISHER",
-    }
-
-#-------------------------------
-# Education Section
-
-education-title: Education
-education:
-  - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
-    }
-  - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
-    }
-  - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
-    }
-  - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
-    }
-
-#-------------------------------
-# Services Section
-
-services-title: Services
-services:
-  - {
-      name: UI Design,
-      icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
-  - {
-      name: UX Design,
-      icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: true, # Add true to select section
-    }
-  - {
-      name: Interaction Design,
-      icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
-
-#-------------------------------
-# Portfolio (Section and Page)
-
-# Portfolio Home Section
-portfolio-home-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-4.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
 
 # Portfolio Page
 portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+ # - { title: "Cancer Genomics", type: "cancer" }
+  - { title: "Metholdology", type: "sc" }
+  - { title: "Aging", type: "aging" }
+  - { title: "Hearing Loss", type: "hearing" }
 
 portfolio-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/7.agingatlas.png"
+    url: "https://www.biorxiv.org/content/10.1101/2023.02.28.530490v4"
+    description: "Aging Atlas Reveals Cell-Type-Specific Regulation of Pro-longevity Strategies"
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
+      - type: "aging"
+      - type: "sc"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image: "assets/images/portfolio/6.hearingsc.png"
+    url: "https://www.frontiersin.org/articles/10.3389/fncel.2022.962106/full"
+    description: "Profiling mouse cochlear cell maturation using 10× Genomics single-cell transcriptomics"
     portfolio-type:
-      - type: "branding"
+      - type: "sc"
+      - type: "hearing"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
+  - image: "assets/images/portfolio/5.scWGA.png"
+    url: "https://genome.cshlp.org/content/32/1/44"
+    description: "Low-frequency somatic copy number alterations in normal human lymphocytes revealed by large-scale single-cell whole-genome profiling"
     portfolio-type:
-      - type: "illustration"
+      - type: "aging"
+      - type: "sc"
 
-  - image: "assets/images/portfolio/item-6.png"
-    url: "#"
+  - image: "assets/images/portfolio/4.small.png"
+    url: "https://onlinelibrary.wiley.com/doi/10.1002/smll.201903739"
+    description: "Interfacial Nanoinjection‐Based Nanoliter Single‐Cell Analysis"
     portfolio-type:
-      - type: "design"
-      - type: "branding"
+      - type: "sc"
 
-  - image: "assets/images/portfolio/item-8.png"
-    url: "#"
+
+  - image: "assets/images/portfolio/3.sherry.png"
+    url: "https://www.pnas.org/doi/full/10.1073/pnas.1919800117"
+    description: "RNA sequencing by direct tagmentation of RNA/DNA hybrids"
     portfolio-type:
-      - type: "illustration"
+      - type: "sc"
 
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
+  - image: "assets/images/portfolio/2.mica.png"
+    url: "https://www.nature.com/articles/s42003-019-0401-y"
+    description: "High-throughput single-cell whole-genome amplification through centrifugal emulsification and eMDA"
     portfolio-type:
-      - type: "design"
+      - type: "sc"
 
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/1.longTn5.png"
+    url: "https://pubs.acs.org/doi/10.1021/acsami.8b01560"
+    description: "Tagmentation on Microbeads: Restore Long-Range DNA Sequence Information Using Next Generation Sequencing with Library Prepared by Surface-Immobilized Transposomes"
     portfolio-type:
-      - type: "branding"
+      - type: "sc"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
+  - image: "assets/images/portfolio/1.digitalcount.png"
+    url: "https://pubs.acs.org/doi/10.1021/acsami.7b03146"
+    description: "Single-Cell-Based Platform for Copy Number Variation Profiling through Digital Counting of Amplified Genomic DNA Fragments"
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
+      - type: "sc"
 
-  - image: "assets/images/portfolio/item-7.png"
-    url: "#"
+  - image: "assets/images/portfolio/1.RNA.png"
+    url: "https://pubs.acs.org/doi/10.1021/acs.analchem.6b02581"
+    description: "Single Cell Total RNA Sequencing through Isothermal Amplification in Picoliter-Droplet Emulsion"
     portfolio-type:
-      - type: "illustration"
+      - type: "sc"
 
-#-------------------------------
-# Testimonials Section
+  - image: "assets/images/portfolio/1.spin.png"
+    url: "https://pubs.rsc.org/en/content/articlelanding/2016/LC/C6LC01084A"
+    description: "Spinning micropipette liquid emulsion generator for single cell whole genome amplification"
+    portfolio-type:
+      - type: "sc"
 
-testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - image: "assets/images/portfolio/1.chipseq.png"
+    url: "https://www.nature.com/articles/cr2014119"
+    description: "H3K4me3 epigenomic landscape derived from ChIP-Seq of 1,000 mouse early embryonic cells"
+    portfolio-type:
+      - type: "sc"
+ 
+  - image: "assets/images/portfolio/1.eWGA.png"
+    url: "https://www.pnas.org/doi/full/10.1073/pnas.1513988112"
+    description: "Uniform and accurate single-cell sequencing based on emulsion whole-genome amplification"
+    portfolio-type:
+      - type: "sc"
 
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - image: "assets/images/portfolio/1.scRNA.png"
+    url: "https://www.pnas.org/doi/full/10.1073/pnas.1402030111"
+    description: "Microfluidic single-cell whole-transcriptome sequencing"
+    portfolio-type:
+      - type: "sc"
 
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - image: "assets/images/portfolio/1.dPCR.png"
+    url: "https://pubs.acs.org/doi/10.1021/ac300761n"
+    description: "Digital Polymerase Chain Reaction in an Array of Femtoliter Polydimethylsiloxane Microreactors"
+    portfolio-type:
+      - type: "sc"
+  
+  - image: "assets/images/portfolio/1.opt.png"
+    url: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-20-8-8824&id=231681"
+    description: "High dynamic range optical projection tomography (HDR-OPT)"
+    portfolio-type:
+      - type: "sc"
 
-#-------------------------------
-# Client Slider Section
-
-client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-
-#-------------------------------
-# Contact Section
-
-contact-title: Contact Info
-contact-email: steve.fruits@email.com
