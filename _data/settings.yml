@@ -86,7 +86,9 @@ team:
     image: "assets/images/team/SnehaPradhan1.png"
     designation: "Master Student"
 
-
+  - title: "Ariana Kaneda"
+    image: "assets/images/team/ArianaKaneda1.png"
+    designation: "Undergraduate Student"
 
 #-------------------------------
 # Publication (Section and Page)
