@@ -36,7 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Single-Cell Genomics <br> in <br> Aging, Cancer, and Beyond
+  hero-title: Single-Cell Genomics <br> in <br> Aging & Cancer
 
 social:
  # - { icon: "ti-facebook", link: "#" }
@@ -99,7 +99,7 @@ portfolio-label:
  # - { title: "Cancer Genomics", type: "cancer" }
   - { title: "Metholdology", type: "sc" }
   - { title: "Aging", type: "aging" }
-  - { title: "Hearing Loss", type: "hearing" }
+ # - { title: "Hearing Loss", type: "hearing" }
 
 portfolio-items:
   - image: "assets/images/portfolio/7.agingatlas.png"

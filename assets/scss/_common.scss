@@ -8,6 +8,27 @@ body {
   color: $white;
 }
 
+
+.h1f.text-white.font-tertiary::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw; /* Full viewport width */
+  height: 100%;
+  background-color: rgba($primary-color, 0.5); /* 70% transparent lightened primary color */
+  z-index: -1; /* Position behind the text */
+  border-radius: 0; /* Optional: Remove rounded corners */
+}
+.h1f.text-white.font-tertiary {
+  position: relative;
+  display: inline-block; /* Adjust as needed */
+  padding: 10px 20px; /* Optional: Add padding to the text */
+}
+/* Ensure the container centers the text properly */
+.col-lg-11 {
+  text-align: center;
+}
 /* preloader */
 /* Embed Container */
 .embed-container {
